@@ -1,0 +1,62 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-16T22:01:53.807Z",
+        "line": 4,
+        "name": "Compare reponse of two files",
+        "description": "",
+        "id": "compare-reponse-between-two-files;compare-reponse-of-two-files",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2234526,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I load the two files that has the request",
+            "match": {
+              "location": "CompareResponseBetweenTwoFiles.i_load_the_two_files_that_has_the_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2860957887,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "compare tool prints the two response has matched or not",
+            "match": {
+              "location": "CompareResponseBetweenTwoFiles.compare_tool_prints_the_two_response_has_matched_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Compare"
+          }
+        ]
+      }
+    ],
+    "name": "Compare Reponse Between Two Files",
+    "description": "",
+    "id": "compare-reponse-between-two-files",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/CompareResponseBewteenTwoFiles.feature",
+    "tags": [
+      {
+        "name": "@Compare",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
